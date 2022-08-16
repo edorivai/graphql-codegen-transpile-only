@@ -504,7 +504,7 @@
     "@graphql-codegen/plugin-helpers" "^2.6.2"
     tslib "~2.4.0"
 
-"@graphql-codegen/cli@^2.4.0":
+"@graphql-codegen/cli@^2.11.6":
   version "2.11.6"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.11.6.tgz#3acfd7cd3bac40999ba1262063d84ca7c96172dc"
   integrity sha512-0R2Bhgjt3XZTSdsn8MGGuJjDEN2z+KCo7920zLZz9boy6bQ0EyuxS9AUATePS9aC3djy2POAIPCHz8iHK68IlQ==

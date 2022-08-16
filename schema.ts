@@ -10,4 +10,6 @@ const schema = buildSchema(/* GraphQL */ `
   }
 `);
 
+const boom: string = 123;
+
 export default schema;
