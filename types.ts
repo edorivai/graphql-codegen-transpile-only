@@ -12,24 +12,17 @@ export type Scalars = {
   Float: number;
 };
 
+export type MyType = {
+  __typename?: 'MyType';
+  foo: Scalars['String'];
+};
+
 export type Query = {
   __typename?: 'Query';
-  user: User;
+  myType: MyType;
 };
 
-
-export type QueryUserArgs = {
-  id: Scalars['ID'];
-};
-
-export type User = {
-  __typename?: 'User';
-  email: Scalars['String'];
-  id: Scalars['ID'];
-  username: Scalars['String'];
-};
-
-export type UserQueryVariables = Exact<{ [key: string]: never; }>;
+export type BlaQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type UserQuery = { __typename?: 'Query', user: { __typename?: 'User', id: string, username: string, email: string } };
+export type BlaQuery = { __typename?: 'Query', myType: { __typename?: 'MyType', foo: string } };

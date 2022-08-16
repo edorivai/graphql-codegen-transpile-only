@@ -1,7 +1,7 @@
 schema: schema.ts
 documents: document.graphql
-
-
+require:
+  - "ts-node/register/transpile-only"
 generates:
   types.ts:
     plugins:
